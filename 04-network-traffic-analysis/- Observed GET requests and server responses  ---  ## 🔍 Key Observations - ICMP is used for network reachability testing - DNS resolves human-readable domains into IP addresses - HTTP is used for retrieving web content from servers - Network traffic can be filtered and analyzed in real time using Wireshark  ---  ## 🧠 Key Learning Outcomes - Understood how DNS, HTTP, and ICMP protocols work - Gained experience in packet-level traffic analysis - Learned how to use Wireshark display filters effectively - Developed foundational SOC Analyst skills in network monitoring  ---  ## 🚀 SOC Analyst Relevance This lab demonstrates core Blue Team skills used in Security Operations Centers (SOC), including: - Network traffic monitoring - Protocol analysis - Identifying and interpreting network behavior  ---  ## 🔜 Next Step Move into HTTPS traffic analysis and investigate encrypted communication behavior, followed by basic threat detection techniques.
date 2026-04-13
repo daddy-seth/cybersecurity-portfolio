@@ -1,0 +1,66 @@
+# Network Traffic Analysis (DNS, HTTP & ICMP)
+
+## 🎯 Objective
+To capture and analyze different types of network traffic (DNS, HTTP, and ICMP) using Wireshark in a Kali Linux virtual environment. The goal was to understand how devices communicate over a network and how websites are resolved and accessed.
+
+---
+
+## 🛠 Tools Used
+- Kali Linux
+- Wireshark
+- VirtualBox
+- Terminal (ping, curl commands)
+
+---
+
+## 📡 Activities Performed
+
+### 1. ICMP Traffic (Ping)
+- Executed the command:
+
+- Generated ICMP Echo Request and Echo Reply packets
+- Observed real-time connectivity between host and external server
+
+---
+
+### 2. DNS Traffic Analysis
+- Applied Wireshark filter:
+
+- Observed domain name resolution requests (e.g., google.com, example.com)
+- Understood how domain names are translated into IP addresses
+
+---
+
+### 3. HTTP Traffic Analysis
+- Generated HTTP traffic using:
+
+- Observed GET requests and server responses
+
+---
+
+## 🔍 Key Observations
+- ICMP is used for network reachability testing
+- DNS resolves human-readable domains into IP addresses
+- HTTP is used for retrieving web content from servers
+- Network traffic can be filtered and analyzed in real time using Wireshark
+
+---
+
+## 🧠 Key Learning Outcomes
+- Understood how DNS, HTTP, and ICMP protocols work
+- Gained experience in packet-level traffic analysis
+- Learned how to use Wireshark display filters effectively
+- Developed foundational SOC Analyst skills in network monitoring
+
+---
+
+## 🚀 SOC Analyst Relevance
+This lab demonstrates core Blue Team skills used in Security Operations Centers (SOC), including:
+- Network traffic monitoring
+- Protocol analysis
+- Identifying and interpreting network behavior
+
+---
+
+## 🔜 Next Step
+Move into HTTPS traffic analysis and investigate encrypted communication behavior, followed by basic threat detection techniques.
